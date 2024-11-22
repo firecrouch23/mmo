@@ -19,7 +19,7 @@ const HomePage = () => {
       mode: 'subscription',
       successUrl: `https://mmo-hazel.vercel.app/success`,
       cancelUrl: `https://mmo-hazel.vercel.app/cancel`,
-      customerEmail: 'customer@email.com',
+      customerEmail: 'sellxilips@gmail.com',
     });
     console.warn(error.message);
   };
