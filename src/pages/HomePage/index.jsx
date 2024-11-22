@@ -17,8 +17,8 @@ const HomePage = () => {
         },
       ],
       mode: 'subscription',
-      successUrl: `http://localhost:3000/success`,
-      cancelUrl: `http://localhost:3000/cancel`,
+      successUrl: `https://mmo-hazel.vercel.app/success`,
+      cancelUrl: `https://mmo-hazel.vercel.app/cancel`,
       customerEmail: 'customer@email.com',
     });
     console.warn(error.message);
